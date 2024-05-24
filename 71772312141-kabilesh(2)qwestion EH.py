@@ -33,4 +33,7 @@ try :
     s.printall( )
     s.push(70)
 except IndexError as ie :
-    print(ie.args)
+    print(ie.args)
+output:
+10
+('Stack is empty',)
